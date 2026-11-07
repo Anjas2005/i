@@ -1,0 +1,19 @@
+.i-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-meta);
+  letter-spacing: var(--letter-spacing-label);
+}
+
+.i-theme-toggle select {
+  min-height: 32px;
+  padding: 4px 8px;
+  color: var(--text-primary);
+  background: var(--surface-card);
+  border: var(--border-width) solid var(--border-structural);
+  border-radius: 0;
+  font: 700 11px var(--font-mono);
+}

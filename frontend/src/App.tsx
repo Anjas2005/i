@@ -1,9 +1,10 @@
+import Home from "./pages/Home";
+import RegisterUser from "./pages/RegisterUser";
+
 function App() {
-  return (
-    <>
-      <h1 style={{ color: "white" }}>HELLO</h1>
-    </>
-  );
+  const isAuthenticated = false; // Replace with your auth check
+
+  return isAuthenticated ? <Home/> : <RegisterUser />;
 }
 
 export default App;
